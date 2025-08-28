@@ -1,9 +1,3 @@
-James Madison Robotic's Team
-=============
+# JMHS FRC 620 Robotics Team
 
-The FRC 620 Warbots team website.
-
-License
--------
-
-The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
+The James Madison High School FRC 620 Robotics team website.

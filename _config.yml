@@ -1,16 +1,44 @@
-name: James Madison High School Robotics Team
-url: http://frc-team-620.github.io
-description: The FRC 620 robotics team.
+# site settings
+title: JMHS Warbots
+subtitle: FRC 620
+email: warbots@jmhsrobotics.org
+description: The main website for the James Madison high school's FRC 620 robotics team.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 2500 James Madison Drive
+city: Vienna
+state: VA
+zip_code: 22181
+country: United States of America
+phone: (703) 319-2300
 
-permalink: /themes/:title/
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-plugins: [jekyll-paginate]
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
 
-highlighter: pygments
-paginate: 20
+# build settings
+markdown: kramdown
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+sass:
+  style: compressed
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
