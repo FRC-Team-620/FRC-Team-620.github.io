@@ -16,16 +16,16 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Overview</h2>
+<p>FRC, or First Robotics Competition, is an international organization that hosts competitions where high schools around the globe compete in an anually released robotics challenge/game. Every January, the game is released to all the teams on the same day. From there, they have about 2 months to build a full robot from the ground up before the first round of competitions. </p>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Build Season</h3>
+		<p>The Build season starts immediately after the game is released every year in January. Students on every team go through an extensive designing and prototyping process before competitions start in March. At the kickoff when the game is released, students begin analyzing game elements to determine the most important robot functions. After creating and testing a series of prototypes, the team votes on the best design and creates a CAD (computer aided design) model of the full robot. Then, they begin fabricating and assembling the first version of the robot based on the CAD. As the season progresses, the team will later refine and make changes as needed.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+		<h3>Competitions</h3>
+		<p>In each competition, teams play matches in randomized groups of 3, called alliances. 2 alliances face each other in each match. There are points that you get for scoring that determine a win or a loss in each match. There are also special points, called Ranking Points, that you obtain from completing special challenges during each game. These Ranking Points determine your standing in the competition. The teams who place eighth or higher become alliance captains in the playoffs.</p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
@@ -37,7 +37,7 @@ nav-menu: true
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
+		<h3>Alliance Captains</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 </div>
