@@ -21,7 +21,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Build Season</h3>
-		<p>The Build season starts immediately after the game is released every year in January. Students on every team go through an extensive designing and prototyping process before competitions start in March. At the kickoff when the game is released, students begin analyzing game elements to determine the most important robot functions. After creating and testing a series of prototypes, the team votes on the best design and creates a CAD (computer aided design) model of the full robot. Then, they begin fabricating and assembling the first version of the robot based on the CAD. As the season progresses, the team will later refine and make changes as needed.</p>
+		<p>The Build season starts immediately after the game is released every year in January. Students on every team go through an extensive designing and prototyping process before competitions start in March. Students begin by analyzing game elements to determine the most important robot functions. After creating and testing a series of prototypes, the team votes on the best design and creates a CAD (computer aided design) model of the full robot. Then, they begin fabricating and assembling the first version of the robot. As the season progresses, the team will later refine and make changes as needed.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Competitions</h3>
