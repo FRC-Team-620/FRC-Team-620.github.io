@@ -25,5 +25,5 @@ nav-menu: true
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Competitions</h3>
-		<p>In each competition, teams play matches in randomized groups of 3, called alliances. 2 alliances face each other in each match. There are points that you get for scoring that determine a win or a loss in each match. There are also special points, called Ranking Points, that you obtain from completing special challenges during each game. These Ranking Points determine your standing in the competition. The teams who place eighth or higher become alliance captains in the playoffs.</p>
+		<p>In each competition, teams play matches in randomized groups of 3, called alliances. 2 alliances face each other in each match. There are points gotten from scoring that determine a win or a loss in each match, and there are also special points, called Ranking Points, that you obtain from completing special challenges during each game. These Ranking Points determine your standing in the competition. The teams who place eighth or higher become alliance captains in the playoffs.</p>
 	</div>
