@@ -31,46 +31,7 @@ nav-menu: true
 
 <hr class="major" />
 
-<!-- Elements -->
-<h2 id="elements">Elements</h2>
-<div class="row 200%">
-	<div class="6u 12u$(medium)">
 
-
-<hr />
-<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-<!-- Lists -->
-<h3>Lists</h3>
-<div class="row">
-	<div class="6u 12u$(small)">
-
-		<h4>Unordered</h4>
-		<ul>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Sagittis lorem eleifend.</li>
-			<li>Felis dolore viverra.</li>
-		</ul>
-
-		<h4>Alternate</h4>
-		<ul class="alt">
-			<li>Dolor etiam magna etiam.</li>
-			<li>Sagittis lorem eleifend.</li>
-			<li>Felis feugiat viverra.</li>
-		</ul>
-
-	</div>
-	<div class="6u$ 12u$(small)">
-
-		<h4>Ordered</h4>
-		<ol>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Etiam vel lorem sed viverra.</li>
-			<li>Felis dolore viverra.</li>
-			<li>Dolor etiam magna etiam.</li>
-			<li>Etiam vel lorem sed viverra.</li>
-			<li>Felis dolore viverra.</li>
-		</ol>
 
 		<h4>Icons</h4>
 		<ul class="icons">
