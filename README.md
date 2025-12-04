@@ -4,4 +4,4 @@ The James Madison High School FRC 620 Robotics team website.
 
 ## Run Locally
 
-bundle exec jekyll serve
+
