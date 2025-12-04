@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Purpose of Subteams</h2>
 		</header>
-		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and make cooperation easier. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited.</p>
+		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season, where it is very important and limited.</p>
 	</div>
 </section>
 
