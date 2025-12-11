@@ -56,8 +56,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Electronics</h3>
 				</header>
-				<p>Electronics is the subteam responsible for animating the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The roborio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar.
-				Here we do wiring; the bot drinks battery juice; indubitably <p>
+				<p>Electronics is the subteam responsible for animating the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The robo rio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar. Here we do wiring; the bot drinks battery juice; indubitably</p>
 			</div>
 		</div>
 	</section>
