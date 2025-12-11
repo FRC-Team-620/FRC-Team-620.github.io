@@ -56,7 +56,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Electronics</h3>
 				</header>
-				<p>Electronics is the subteam responsible for animating the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The robo rio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar. Here we do wiring; the bot drinks battery juice; indubitably</p>
+				<p>Electronics is the subteam responsible for powering the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The robo rio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar. Here we do wiring; the bot drinks battery juice; indubitably</p>
 			</div>
 		</div>
 	</section>
@@ -69,7 +69,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Programming</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>The programming team's job is to put the robot that design and fabrication have built into action. Using tools like Java and GitHub, we code the movement of robot mechanisms, autonomous routines, and driver input. The programming team is a great way to learn the many ways in which code can be applied and about software development in the real world while working with experienced mentors.</p>
 			</div>
 		</div>
 	</section>
@@ -81,6 +81,6 @@ nav-menu: true
 		<header class="major">
 			<h2>Additional Competition Subteams</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p> Strategy: The strategy team has two main focuses: analyzing the game, and making decisions at competitions. At the beginning of the season, the strategy team is heavily involved in the initial robot design process, examining the newly revealed game in an attempt to figure out the best match/robot configuration strategy for any given year. Once the team gets to competition season, the strategy team's role evolves. At comps, the subteam manages scouts in the stands who watch matches for info on teams, collaborates with the drive team to develop match strategies, and uses scout data to create a pick order for alliance selection.</p>
 	</div>
 </section>
