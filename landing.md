@@ -43,7 +43,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Fabrication</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Fabrication is the process by which we turn our designs into real robots. Bandsaws, 3D printers, drills, bolts, and the like allow us to cut, print, and shape each individual component. From there, everything gets assembled according to the design plan. Once finished, the bot is ready for electronics. Fabrication is; the fabrication process; to make fabricants</p>
 			</div>
 		</div>
 	</section>
@@ -56,7 +56,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Electronics</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Electronics is the subteam responsible for animating the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The roborio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar. Here we do wiring; the bot drinks battery juice; indubitably</p>
 			</div>
 		</div>
 	</section>
