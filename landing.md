@@ -1,7 +1,7 @@
 ---
 title: Subteams
 layout: landing
-description: 'Learn about the different parts of our team!'
+description: 'Learn about the different parts of our team, and enjoy a creative on-theme haiku for each!'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Purpose of Subteams</h2>
 		</header>
-		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited.</p>
+		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited. </p>
 	</div>
 </section>
 
@@ -43,7 +43,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Fabrication</h3>
 				</header>
-				<p>Fabrication is the process by which we turn our designs into real robots. Bandsaws, 3D printers, drills, bolts, and the like allow us to cut, print, and shape each individual component. From there, everything gets assembled according to the design plan. Once finished, the bot is ready for electronics. Fabrication is; the fabrication process; to make fabricants</p>
+				<p>Fabrication is the process by which the team turns designs into real robots. Bandsaws, 3D printers, drills, bolts, and the like allow the team to cut, print, and shape each individual component. From there, everything gets assembled according to the design plan. Once finished, the bot is ready for electronics. Fabrication is; the fabrication process; to make fabricants</p>
 			</div>
 		</div>
 	</section>
@@ -69,7 +69,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Programming</h3>
 				</header>
-				<p>The programming team's job is to put the robot that design and fabrication have built into action. Using tools like Java and GitHub, we code the movement of robot mechanisms, autonomous routines, and driver input. The programming team is a great way to learn the many ways in which code can be applied and about software development in the real world while working with experienced mentors.</p>
+				<p>The programming team's job is to put the robot that design and fabrication have built into action. Using tools like Java and GitHub, they code the movement of robot mechanisms, autonomous routines, and driver input. The programming team is a great way to learn the many ways in which code can be applied and about software development in the real world while working with experienced mentors.</p>
 			</div>
 		</div>
 	</section>
