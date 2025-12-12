@@ -82,6 +82,11 @@ nav-menu: true
 			<h2>Additional Competition Subteams</h2>
 		</header>
 		<p> Strategy: The strategy team has two main focuses: analyzing the game, and making decisions at competitions. At the beginning of the season, the strategy team is heavily involved in the initial robot design process, examining the newly revealed game in an attempt to figure out the best match/robot configuration strategy for any given year. Once the team gets to competition season, the strategy team's role evolves. At comps, the subteam manages scouts in the stands who watch matches for info on teams, collaborates with the drive team to develop match strategies, and uses scout data to create a pick order for alliance selection.</p>
-		<p> Drive: The drive team is essential to 620's success at competitions. On every drive team there is a driver, operator, human player, and coach. While the driver and operator pilot the robot, the drive coach directs them and communicates with other teams. The human player, whose role varies from year to year, takes care of other interactions with the game and game pieces. Each year, prospective drive teams must go through a selection process involving heavy levels of participation at preseason competitions, ensuring the team has multiple competent teams. The drive team is something 620 does especially well, and has contributed greatly to the Warbots' recent accomplishments.<p>
 	</div>
 </section>
+
+<!-- Four -->
+<section id= "Four">
+	<div class= "inner">
+		<p> Drive: The drive team is essential to 620's success at competitions. On every drive team there is a driver, operator, human player, and coach. While the driver and operator pilot the robot, the drive coach directs them and communicates with other teams. The human player, whose role varies from year to year, takes care of other interactions with the game and game pieces. Each year, prospective drive teams must go through a selection process involving heavy levels of participation at preseason competitions, ensuring the team has multiple competent teams. The drive team is something 620 does especially well, and has contributed greatly to the Warbots' recent accomplishments.<p>
+	</div>
