@@ -31,7 +31,6 @@ nav-menu: true
 					<h3>Design</h3>
 				</header>
 				<p>The design team facilitates the assembling and analysis of the robot, by transforming simple ideas into CAD models. Through the cloud-native CAD software, OnShape, members create virtual assemblies of the robot, its subsystems, and customizable parts to manufacture. Allowing better time management and resources planning throughout the season. </p>
-</p>
 			</div>
 		</div>
 	</section>
