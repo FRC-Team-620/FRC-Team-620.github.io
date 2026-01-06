@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What Is FRC?
+description: 'A basic overview of the First Robotics Competition organization!'
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
