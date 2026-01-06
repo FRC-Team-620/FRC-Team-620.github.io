@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Purpose of Subteams</h2>
 		</header>
-		<p>The design team facilitates the assembling and analysis of the robot, by transforming simple ideas into CAD models. Through the cloud-native CAD software, OnShape, members create virtual assemblies of the robot, its subsystems, and customizable parts to manufacture. Allowing better time management and resources planning throughout the season. </p>
+		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited. </p>
 	</div>
 </section>
 
@@ -30,7 +30,8 @@ nav-menu: true
 				<header class="major">
 					<h3>Design</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>The design team facilitates the assembling and analysis of the robot, by transforming simple ideas into CAD models. Through the cloud-native CAD software, OnShape, members create virtual assemblies of the robot, its subsystems, and customizable parts to manufacture. Allowing better time management and resources planning throughout the season. </p>
+</p>
 			</div>
 		</div>
 	</section>
