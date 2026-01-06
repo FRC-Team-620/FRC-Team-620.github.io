@@ -1,7 +1,7 @@
 ---
 title: Subteams
 layout: landing
-description: 'Learn about the different parts of our team, and enjoy a creative on-theme haiku for each!'
+description: 'Learn about the different parts of our team!'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -43,7 +43,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Fabrication</h3>
 				</header>
-				<p>Fabrication is the process by which the team turns designs into real robots. Bandsaws, 3D printers, drills, bolts, and the like allow the team to cut, print, and shape each individual component. From there, everything gets assembled according to the design plan. Once finished, the bot is ready for electronics. Fabrication is; the fabrication process; to make fabricants</p>
+				<p>Fabrication is the process by which the team turns designs into real robots. Bandsaws, 3D printers, drills, bolts, and the like allow the team to cut, print, and shape each individual component. From there, everything gets assembled according to the design plan. Once finished, the bot is ready for electronics.</p>
 			</div>
 		</div>
 	</section>
@@ -56,7 +56,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Electronics</h3>
 				</header>
-				<p>Electronics is the subteam responsible for powering the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The robo rio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar. Here we do wiring; the bot drinks battery juice; indubitably</p>
+				<p>Electronics is the subteam responsible for powering the bot. A central battery supplies power to the Power Distribution Hub (PDH), which disperses it across the robot. The robo rio is the brains of the operation; like the power distributor, it's connected to all the moving parts. Its job is to tell them when & how to move. It also connects to a radio, which allows the drivers to operate the bot from afar.</p>
 			</div>
 		</div>
 	</section>
