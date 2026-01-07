@@ -2,7 +2,7 @@
 layout: post
 title: About Our Team
 description: 'Our team at a glance!'
-image: assets/images/pic11.jpg
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 
