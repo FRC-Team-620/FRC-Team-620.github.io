@@ -4,7 +4,7 @@ subtitle: FRC 620
 email: warbots@jmhsrobotics.org
 description: The main website for the James Madison high school's FRC 620 robotics team.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: jamesmadisonhswarbots.org
 author:
 street_address: 2500 James Madison Drive
 city: Vienna
