@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Feel free to message us on the given platforms to ask questions or find out how you can get involved!
+Feel free to message us to ask questions or find out how you can get involved!
