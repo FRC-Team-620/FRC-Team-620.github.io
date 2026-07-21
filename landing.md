@@ -1,7 +1,7 @@
 ---
 title: Subteams
 layout: landing
-description: 'Learn about the different parts of our team!'
+description: 'We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited. Each subteam has a Captain, who facilitates communication and efficiency between subteams and subteam tasks.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -10,17 +10,7 @@ nav-menu: true
 <div id="main">
 
 <!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Purpose of Subteams</h2>
-		</header>
-		<p>We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited. Each subteam has a Captain, who facilitates communication and efficiency between subteams and subteam tasks. </p>
-	</div>
-</section>
-
-<!-- Two -->
-<section id="two" class="spotlights">
+<section id="one" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
@@ -75,8 +65,8 @@ nav-menu: true
 	</section>
 </section>
 
-<!-- Three -->
-<section id="Three">
+<!-- Two -->
+<section id="two">
 	<div class="inner">
 		<header class="major">
 			<h2>Nontechnical Subteams</h2>
