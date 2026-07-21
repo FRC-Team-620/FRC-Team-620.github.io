@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Welcome to our site! Here, find information all about our team and how you can get involved! 
+Feel free to message us on the given platforms to ask questions or find out how you can get involved!
