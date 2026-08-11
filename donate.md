@@ -7,5 +7,3 @@ author: null
 show tile: false
 nav menu: true
 ---
-<!--Main--!>
-
