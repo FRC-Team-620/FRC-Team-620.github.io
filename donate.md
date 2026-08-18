@@ -1,9 +1,9 @@
 ---
 layout: landing
 title: How To Donate
-description:
+description: Please help us out by donating to our team so we can rule the world..
 image: null
 author: null
-show tile: false
-nav menu: true
+show_tile: false
+nav menu: false
 ---
