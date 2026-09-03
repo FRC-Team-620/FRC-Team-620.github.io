@@ -2,7 +2,7 @@
 layout: landing
 title: Donations
 description: FRC | Team 620 | Warbots
-image: assets\images\pic01.jpg
+image: null
 author: null
 show_tile: false
 nav menu: false
