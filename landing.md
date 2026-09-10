@@ -16,7 +16,7 @@ nav-menu: true
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
-			<div class="inner">
+			<div class="inner"> 
 				<header class="major">
 					<h3>Design</h3>
 				</header>

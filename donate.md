@@ -54,4 +54,4 @@ nav menu: false
 								<p>James Madison Robotics Booster Organization, Inc. <br> <br>Official
 									501(c)(3) nonprofit Donations are tax deductible W-9 form available
 									upon request Tax ID: #88-3913544</p>
-							</div>
+							</div> 
