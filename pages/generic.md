@@ -4,6 +4,7 @@ title: About Our Team
 description: 'Our team at a glance!'
 image: assets/images/pic12.jpg
 nav-menu: true
+permalink: /aboutus
 ---
 
 We are a student led, mentor guided team originating from Madison High School in Vienna, Virginia. We work together as a group to design, fabricate, and program a robot every year to participate in competitions with the rules/challenge annually released by FIRST Robotics.
