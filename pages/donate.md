@@ -8,9 +8,6 @@ show_tile: false
 nav menu: false
 permalink: /donate
 ---
-
-
-
 <section id="one">
 	<div class="inner">
         <p>Our team relies on donations and sponsorships from both large companies as well as families and friends! We use this money to register for the competition, as well as purchase parts that we need to use. Every little bit helps, and we appreciate all donations.</p>
