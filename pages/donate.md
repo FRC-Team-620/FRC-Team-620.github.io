@@ -10,16 +10,6 @@ permalink: /donate
 ---
 
 
-<section id="banner" class="style1">
-	<div class="inner">
-		<span class="image">
-			<img src="assets/images/pic12.jpg" alt="">
-            <!-- <a href="generic.html" class="image">
-			<img src="{% link assets/images/pic12.jpg %}" alt="" data-position="25% 25%" />
-		</a> -->
-		</span>
-	</div>
-</section>
 
 <section id="one">
 	<div class="inner">
