@@ -6,6 +6,7 @@ image: assets/images/pic12.jpg
 author: null
 show_tile: false
 nav menu: false
+permalink: /donate
 ---
 
 

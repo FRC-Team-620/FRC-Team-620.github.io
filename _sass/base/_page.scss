@@ -35,4 +35,10 @@
 				}
 			}
 
+		// Target contact information to add lines around the input textboxes so they are visible
+		#contact .inner section form {
+			input[type=text], input[type=password], input[type=email], select, textarea {
+				border: 1px solid #fff;
+			}
+		}
 	}
