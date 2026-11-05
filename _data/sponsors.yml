@@ -1,0 +1,23 @@
+# Sponsors shown in the footer of every page. This is the only file to edit.
+#
+# To add a sponsor:
+#   1. Put the logo image in assets/images/sponsors/
+#   2. Add an entry below, in the order you want it to appear:
+#
+#   - name: Acme Corp            # also used as the logo's alt text
+#     logo: acme.png             # file name inside assets/images/sponsors/
+#     url: https://example.com   # optional: makes the logo a link (opens in a new tab)
+#
+# Leave logo empty to show a placeholder box with the sponsor's name.
+
+- name: Sponsor 1
+  logo: ""
+
+- name: Sponsor 2
+  logo: ""
+
+- name: Sponsor 3
+  logo: ""
+
+- name: Sponsor 4
+  logo: ""

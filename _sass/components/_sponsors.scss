@@ -1,0 +1,67 @@
+/* Sponsors */
+
+	.sponsors {
+		$gap: 1em;
+
+		border-bottom: solid 1px _palette(border);
+		margin-bottom: _size(element-margin);
+		padding-bottom: _size(element-margin);
+
+		h2 {
+			font-size: 0.8em;
+			letter-spacing: _font(letter-spacing-alt);
+			margin-bottom: 1.5em;
+			text-transform: uppercase;
+		}
+
+		.sponsor-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: $gap;
+			justify-content: center;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				flex: 0 0 calc((100% - #{$gap * 3}) / 4);
+				height: 5em;
+				min-width: 0;
+				padding: 0;
+			}
+
+			a {
+				border-bottom: 0;
+				display: block;
+				height: 100%;
+			}
+
+			img {
+				display: block;
+				height: 100%;
+				object-fit: contain;
+				width: 100%;
+			}
+		}
+
+		.sponsor-placeholder {
+			align-items: center;
+			background-color: _palette(border-bg);
+			border: solid 1px _palette(border);
+			border-radius: _size(border-radius);
+			display: flex;
+			font-size: 0.8em;
+			height: 100%;
+			justify-content: center;
+			opacity: 0.6;
+			overflow-wrap: anywhere;
+			padding: 0.5em;
+			text-align: center;
+		}
+
+		@include breakpoint(small) {
+			.sponsor-list li {
+				flex-basis: calc((100% - #{$gap}) / 2);
+			}
+		}
+	}
