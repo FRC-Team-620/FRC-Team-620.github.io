@@ -2,6 +2,7 @@
 title: Subteams
 layout: landing
 description: 'We split our team into multiple different disiplines, called subteams, to organize different tasks. We use subteams to help streamline decison making and ease cooperation. They allow us to get multiple jobs done at once, which saves a lot of time in a season where it is very important and limited. Each subteam has a Captain, who facilitates communication and efficiency between subteams and subteam tasks.'
+tile_description: 'Learn more about how we organize our team throughout the season.'
 image: assets/images/pic07.jpg
 nav-menu: true
 permalink: /landing

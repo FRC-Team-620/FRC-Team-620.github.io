@@ -1,0 +1,25 @@
+{% comment %}Sponsor strip shown in the footer. Edit sponsors in _data/sponsors.yml.{% endcomment %}
+{% if site.data.sponsors %}
+<section class="sponsors">
+	<h2>Our Sponsors</h2>
+	<ul class="sponsor-list">
+		{% for sponsor in site.data.sponsors %}
+			{% capture slot %}
+				{% if sponsor.logo and sponsor.logo != "" %}
+					{% assign logo_path = "assets/images/sponsors/" | append: sponsor.logo %}
+					<img src="{{ logo_path | relative_url }}" alt="{{ sponsor.name | escape }}" />
+				{% else %}
+					<span class="sponsor-placeholder">{{ sponsor.name }}</span>
+				{% endif %}
+			{% endcapture %}
+			<li>
+				{% if sponsor.url and sponsor.url != "" %}
+					<a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">{{ slot }}</a>
+				{% else %}
+					{{ slot }}
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}

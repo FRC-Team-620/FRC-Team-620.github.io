@@ -103,7 +103,8 @@
 			}
 
 			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
+			&:nth-child(4n - 2),
+			&:last-child:nth-child(odd) {
 				flex: 1 auto;
 			}
 
@@ -127,13 +128,13 @@
 
 			&:nth-child(6n - 2) {
 				&:before {
-					background-color: _palette(accent4);
+					background-color: _palette(accent3);
 				}
 			}
 
 			&:nth-child(6n - 1) {
 				&:before {
-					background-color: _palette(accent5);
+					background-color: _palette(accent1);
 				}
 			}
 
