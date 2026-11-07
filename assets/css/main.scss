@@ -1,9 +1,7 @@
 ---
 ---
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
+@use 'sass:meta';
+@use 'libs' as *;
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
@@ -36,46 +34,32 @@
 		)
 	));
 
-	@mixin inner {
-		> .inner {
-			@include padding(4em, 0);
-			margin: 0 auto;
-			max-width: _size(inner);
-			width: calc(100% - 6em);
-
-			@include breakpoint(small) {
-				@include padding(3em, 0);
-				width: calc(100% - 3em);
-			}
-		}
-	}
-
 // Base.
 
-	@import 'base/page';
-	@import 'base/typography';
+	@include meta.load-css('base/page');
+	@include meta.load-css('base/typography');
 
 // Component.
 
-	@import 'components/section';
-	@import 'components/form';
-	@import 'components/box';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/table';
-	@import 'components/button';
-	@import 'components/tiles';
-	@import 'components/contact-method';
-	@import 'components/spotlights';
-	@import 'components/sponsors';
+	@include meta.load-css('components/section');
+	@include meta.load-css('components/form');
+	@include meta.load-css('components/box');
+	@include meta.load-css('components/icon');
+	@include meta.load-css('components/image');
+	@include meta.load-css('components/list');
+	@include meta.load-css('components/table');
+	@include meta.load-css('components/button');
+	@include meta.load-css('components/tiles');
+	@include meta.load-css('components/contact-method');
+	@include meta.load-css('components/spotlights');
+	@include meta.load-css('components/sponsors');
 
 // Layout.
 
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/contact';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
-	@import 'layout/menu';
+	@include meta.load-css('layout/header');
+	@include meta.load-css('layout/banner');
+	@include meta.load-css('layout/main');
+	@include meta.load-css('layout/contact');
+	@include meta.load-css('layout/footer');
+	@include meta.load-css('layout/wrapper');
+	@include meta.load-css('layout/menu');

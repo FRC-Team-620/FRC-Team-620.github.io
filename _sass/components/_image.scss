@@ -1,3 +1,5 @@
+@use '../libs' as *;
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -42,7 +44,7 @@ img {
 
 		&.fit {
 			display: block;
-			margin: 0 0 _size(element-margin) 0;
+			margin: 0 0 get-size(element-margin) 0;
 			width: 100%;
 
 			img {
@@ -52,7 +54,7 @@ img {
 
 		&.main {
 			display: block;
-			margin: (_size(element-margin) * 1.25) 0;
+			margin: (get-size(element-margin) * 1.25) 0;
 			width: 100%;
 
 			img {
@@ -60,7 +62,7 @@ img {
 			}
 
 			@include breakpoint(small) {
-				margin: (_size(element-margin) * 0.75) 0;
+				margin: (get-size(element-margin) * 0.75) 0;
 			}
 		}
 	}

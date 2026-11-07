@@ -1,7 +1,4 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
+@use 'libs' as *;
 
 /*
 	Forty by HTML5 UP
@@ -46,5 +43,5 @@
 /* Menu */
 
 	#menu {
-		background: _palette(bg);
+		background: get-palette(bg);
 	}

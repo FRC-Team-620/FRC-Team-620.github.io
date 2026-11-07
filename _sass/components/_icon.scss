@@ -1,3 +1,8 @@
+@use '../libs' as *;
+
+@use "sass:color";
+
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -17,9 +22,9 @@
 
 		&.alt {
 			&:before {
-				background-color: _palette(fg-bold);
+				background-color: get-palette(fg-bold);
 				border-radius: 100%;
-				color: _palette(bg);
+				color: get-palette(bg);
 				display: inline-block;
 				height: 2em;
 				line-height: 2em;
@@ -32,18 +37,18 @@
 	a.icon {
 		&.alt {
 			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+				@include vendor('transition', 'background-color #{get-duration(transition)} ease-in-out');
 			}
 
 			&:hover {
 				&:before {
-					background-color: _palette(accent1);
+					background-color: get-palette(accent1);
 				}
 			}
 
 			&:active {
 				&:before {
-					background-color: desaturate(darken(_palette(accent1), 15), 5);
+					background-color: color.adjust(get-palette(accent1), $lightness: -15%, $saturation: -5%);
 				}
 			}
 		}

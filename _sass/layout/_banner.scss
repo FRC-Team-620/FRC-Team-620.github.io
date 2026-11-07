@@ -1,3 +1,5 @@
+@use '../libs' as *;
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -25,10 +27,10 @@
 		top: -3.25em;
 
 		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			@include vendor('transition', 'opacity #{get-duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: get-palette(bg);
 			content: '';
 			display: block;
 			height: 100%;
@@ -74,7 +76,7 @@
 			.content {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
-				margin: 0 0 _size(element-margin) 0;
+				margin: 0 0 get-size(element-margin) 0;
 
 				> * {
 					margin-left: 1.5em;
@@ -87,8 +89,8 @@
 
 				p {
 					font-size: 0.7em;
-					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
+					font-weight: get-font(weight-bold);
+					letter-spacing: get-font(letter-spacing-alt);
 					text-transform: uppercase;
 				}
 			}
@@ -104,12 +106,12 @@
 			}
 		}
 
-		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(bg-alt); } }
-		&.style3 { &:after { background-color: _palette(accent3); } }
-		&.style4 { &:after { background-color: _palette(accent4); } }
-		&.style5 { &:after { background-color: _palette(accent5); } }
-		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.style1 { &:after { background-color: get-palette(accent1); } }
+		&.style2 { &:after { background-color: get-palette(bg-alt); } }
+		&.style3 { &:after { background-color: get-palette(accent3); } }
+		&.style4 { &:after { background-color: get-palette(accent4); } }
+		&.style5 { &:after { background-color: get-palette(accent5); } }
+		&.style6 { &:after { background-color: get-palette(accent6); } }
 
 		body.is-loading & {
 			&:after {
@@ -145,7 +147,7 @@
 
 					> * {
 						margin-left: 0;
-						margin-bottom: _size(element-margin);
+						margin-bottom: get-size(element-margin);
 					}
 				}
 			}
