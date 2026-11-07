@@ -10,17 +10,26 @@
 #
 # Leave logo empty to show a placeholder box with the sponsor's name.
 
+- name: Datta Advocates
+  logo: "dattaAdvocates.png"
+
 - name: Vienna Optimist Club
   logo: "viennaOptimists.png"
 
 - name: Kajeet
   logo: "kajeet.png"
+
+- name: Lockheed Martin
+  logo: "lockheedMartin.png"
   
 - name: RPG Squarefoot Solutions
   logo: "rpg.png"
 
 - name: Trident Lightspeed Solutions
   logo: "trident.png"
+
+- name: Sovereign Intelligence
+  logo: "sovIntel.png"
 
 - name: RMFG Manufacturing
   logo: "rmfg.png"
