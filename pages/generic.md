@@ -31,6 +31,10 @@ We are split up into seven subteams, two of which are competition specific (used
 </div>
 </div>
 
+<ul class="actions">
+<li><a href="{{ '/landing' | relative_url }}" class="button special">Explore Our Subteams &rarr;</a></li>
+</ul>
+
 <div class="row">
 <div class="8u 12u$(small)" markdown="1">
 

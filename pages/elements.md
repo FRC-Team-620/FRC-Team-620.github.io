@@ -35,3 +35,7 @@ permalink: /overview
 		<span class="image fit"><img src="{{ 'assets/images/pic06.jpg' | relative_url }}" alt="Placeholder: alliances playing a match at a competition" /></span>
 		<p>In each competition, teams play matches in randomized groups of 3, called alliances. 2 alliances face each other in each match. There are points gotten from scoring that determine a win or a loss in each match, and there are also special points, called Ranking Points, that you obtain from completing special challenges during each game. These Ranking Points determine your standing in the competition. The teams who place eighth or higher become alliance captains in the playoffs.</p>
 	</div>
+</div>
+<ul class="actions">
+	<li><a href="{{ '/aboutus' | relative_url }}" class="button special">Meet Our Team &rarr;</a></li>
+</ul>
