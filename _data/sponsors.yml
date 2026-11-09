@@ -10,8 +10,8 @@
 #
 # Leave logo empty to show a placeholder box with the sponsor's name.
 
-- name: Datta Advocates
-  logo: "dattaAdvocates.png"
+- name: Datta Advocate
+  logo: "dattaAdvocate.png"
 
 - name: Vienna Optimist Club
   logo: "viennaOptimists.png"
