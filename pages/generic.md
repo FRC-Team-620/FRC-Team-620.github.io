@@ -8,10 +8,17 @@ permalink: /aboutus
 ---
 
 <div class="row">
-<div class="8u 12u$(small)" markdown="1">
+<div class="8u 12u$(small)">
+<div markdown="1">
 
 We are a student led, mentor guided team originating from Madison High School in Vienna, Virginia. We work together as a group to design, fabricate, and program a robot every year to participate in competitions with the rules/challenge annually released by FIRST Robotics.
 
+</div>
+<div markdown="1" style="margin-top: 5em;">
+
+We are split up into seven subteams, two of which are competition specific (used only during or relating to competitions). Learn more about these subteams under the Subteam tab.
+
+</div>
 </div>
 <div class="4u$ 12u$(small)">
 <!-- IMAGE SLOT 1: replace src with your photo -->
@@ -19,17 +26,9 @@ We are a student led, mentor guided team originating from Madison High School in
 </div>
 </div>
 
-<div class="row">
-<div class="8u 12u$(small)" markdown="1">
-
-We are split up into seven subteams, two of which are competition specific (used only during or relating to competitions). Learn more about these subteams under the Subteam tab. 
-
-</div>
-<div class="4u$ 12u$(small)">
-<!-- IMAGE SLOT 2: replace src with your photo -->
-<span class="image fit"><img src="{{ 'assets/images/pic05.jpg' | relative_url }}" alt="Placeholder: subteam members at work" /></span>
-</div>
-</div>
+<ul class="actions">
+<li><a href="{{ '/landing' | relative_url }}" class="button special">Explore Our Subteams &rarr;</a></li>
+</ul>
 
 <div class="row">
 <div class="8u 12u$(small)" markdown="1">
