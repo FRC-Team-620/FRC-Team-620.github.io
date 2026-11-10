@@ -10,14 +10,27 @@
 #
 # Leave logo empty to show a placeholder box with the sponsor's name.
 
-- name: Sponsor 1
-  logo: ""
+- name: Datta Advocate
+  logo: "dattaAdvocate.png"
 
-- name: Sponsor 2
-  logo: ""
+- name: Vienna Optimist Club
+  logo: "viennaOptimists.png"
 
-- name: Sponsor 3
-  logo: ""
+- name: Kajeet
+  logo: "kajeet.png"
 
-- name: Sponsor 4
-  logo: ""
+- name: Lockheed Martin
+  logo: "lockheedMartin.png"
+  
+- name: RPG Squarefoot Solutions
+  logo: "rpg.png"
+
+- name: Trident Lightspeed Solutions
+  logo: "trident.png"
+
+- name: Sovereign Intelligence
+  logo: "sovIntel.png"
+
+- name: RMFG Manufacturing (rmfg.com)
+  logo: "rmfg.png"
+  url: "https://www.rmfg.com/"
