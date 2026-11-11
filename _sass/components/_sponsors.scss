@@ -1,3 +1,5 @@
+@use '../libs' as *;
+
 /* Sponsors */
 
 	.sponsors {
@@ -5,13 +7,13 @@
 		$logo-height: 5em;
 		$row-gap: 2em;
 
-		border-bottom: solid 1px _palette(border);
-		margin-bottom: _size(element-margin);
-		padding-bottom: _size(element-margin);
+		border-bottom: solid 1px get-palette(border);
+		margin-bottom: get-size(element-margin);
+		padding-bottom: get-size(element-margin);
 
 		h2 {
 			font-size: 0.8em;
-			letter-spacing: _font(letter-spacing-alt);
+			letter-spacing: get-font(letter-spacing-alt);
 			margin-bottom: 1.5em;
 			text-transform: uppercase;
 		}
@@ -52,9 +54,9 @@
 
 		.sponsor-placeholder {
 			align-items: center;
-			background-color: _palette(border-bg);
-			border: solid 1px _palette(border);
-			border-radius: _size(border-radius);
+			background-color: get-palette(border-bg);
+			border: solid 1px get-palette(border);
+			border-radius: get-size(border-radius);
 			display: flex;
 			flex: 1 1 auto;
 			font-size: 0.8em;

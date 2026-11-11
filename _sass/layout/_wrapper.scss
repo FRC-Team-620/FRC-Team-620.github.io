@@ -1,3 +1,5 @@
+@use '../libs' as *;
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -8,8 +10,8 @@
 
 	#wrapper {
 		@include vendor('transition', (
-			'filter #{_duration(menu)} ease',
-			'-webkit-filter #{_duration(menu)} ease',
+			'filter #{get-duration(menu)} ease',
+			'-webkit-filter #{get-duration(menu)} ease',
 			'opacity 0.375s ease-out'
 		));
 		padding-top: 3.25em;

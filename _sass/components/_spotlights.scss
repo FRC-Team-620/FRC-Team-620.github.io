@@ -1,3 +1,8 @@
+@use '../libs' as *;
+
+@use "sass:color";
+
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -16,7 +21,7 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			background-color: color.adjust(get-palette(bg-alt), $lightness: 2%, $saturation: -1%);
 
 			> .image {
 				background-position: center center;
@@ -33,7 +38,7 @@
 				}
 
 				&:before {
-					background: transparentize(_palette(bg), 0.1);
+					background: color.adjust(get-palette(bg), $alpha: -0.1);
 					content: '';
 					display: block;
 					height: 100%;
@@ -56,13 +61,13 @@
 				> .inner {
 					margin: 0 auto;
 					max-width: 100%;
-					width: _size(inner);
+					width: get-size(inner);
 				}
 			}
 
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
-				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
+				background-color: color.adjust(get-palette(bg-alt), $lightness: 4%, $saturation: -2%);
 
 				> .content {
 					@include vendor('align-items', 'flex-end');
