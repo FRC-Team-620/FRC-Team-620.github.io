@@ -11,7 +11,11 @@
 </header>
 -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{{ "" | absolute_url }}/" class="logo">
+		<img src="/assets/images/logo.png" style="height: 3.25em; padding: 0 1em 0 0" />
+		<strong>{{ site.title }}</strong>
+		<span>{{ site.subtitle }}</span>
+	</a>
 	<nav>
 		<a class="nav-button" href="{{ '/aboutus' | relative_url }}">About Our Team</a>
 		<a class="nav-button" href="{{ '/overview' | relative_url }}">What Is FRC?</a>
