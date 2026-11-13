@@ -46,7 +46,8 @@ jobs:
   # Deploy job
   deploy:
     name: Deploy
-    if: github.ref == 'refs/heads/master'
+    # GET RID OF THE FALSE WHEN WE ACTUALLY WANT TO DEPLOY THE SITE!!
+    if: github.ref == 'refs/heads/master' && false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
