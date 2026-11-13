@@ -6,15 +6,19 @@
 	<a href="{{ '/' | relative_url }}" class="logo">
 		<img src="/assets/images/logo.png" style="height: 3.25em; padding: 0 1em 0 0" />
 		<strong>{{ site.title }}</strong>
-		<span>{{ site.subtitle }}</span>
+		<span id="subtitle">{{ site.subtitle }}</span>
 	</a>
-	<nav>
+	<nav class="desktop-nav">
 		<a class="nav-button" href="{{ '/aboutus' | relative_url }}">About Our Team</a>
 		<a class="nav-button" href="{{ '/overview' | relative_url }}">What Is FRC?</a>
 		<a class="nav-button" href="{{ '/landing' | relative_url }}">Subteams</a>
 		<a class="nav-button" href="{{ '/donate/' | relative_url }}">Donate</a>
 	</nav>
+	<nav class="mobile-nav">
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
+
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
