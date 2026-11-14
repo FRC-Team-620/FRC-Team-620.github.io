@@ -2,23 +2,15 @@
 <div id="wrapper">
 
 <!-- Header -->
-<!-- Hide original header
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
--->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo">
+	<a href="{{ '/' | relative_url }}" class="logo">
 		<img src="/assets/images/logo.png" style="height: 3.25em; padding: 0 1em 0 0" />
 		<strong>{{ site.title }}</strong>
 		<span>{{ site.subtitle }}</span>
 	</a>
 	<nav>
-		<a class="nav-button" href="{{ '/aboutus' | relative_url }}">About Our Team</a>
 		<a class="nav-button" href="{{ '/overview' | relative_url }}">What Is FRC?</a>
+		<a class="nav-button" href="{{ '/aboutus' | relative_url }}">About Our Team</a>
 		<a class="nav-button" href="{{ '/landing' | relative_url }}">Subteams</a>
 		<a class="nav-button" href="{{ '/donate/' | relative_url }}">Donate</a>
 	</nav>
@@ -28,7 +20,7 @@
 	<ul class="links">
         {% for page in site.pages %}
 		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		        <li><a href="{{ '' | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.html_pages %}
