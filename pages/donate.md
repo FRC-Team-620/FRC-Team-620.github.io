@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Donations
-description: FRC | Team 620 | Warbots
+description: FRC | Team 620 | Redtails
 image: assets/images/pic12.jpg
 author: null
 show_tile: false
