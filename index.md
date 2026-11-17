@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: "Welcome to FRC 620, The WARBOTS!!!"
+landing-title: "Welcome to FRC 620, The REDTAILS!!!"
 description: "The James Madison High School First Robot Competition (FRC) 620 Robotics team"
 image: null
 author: null
