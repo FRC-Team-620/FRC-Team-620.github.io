@@ -4,15 +4,16 @@
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ '/' | relative_url }}" class="logo">
-		<img src="/assets/images/logo.png" style="height: 3.25em; padding: 0 1em 0 0" />
-		<strong>{{ site.title }}</strong>
+		<img src="/assets/images/logo.png"/>
+		<span id="title">{{ site.title }}</span>
 		<span id="subtitle">{{ site.subtitle }}</span>
 	</a>
 	<nav class="desktop-nav">
-		<a class="nav-button" href="{{ '/aboutus' | relative_url }}">About Our Team</a>
-		<a class="nav-button" href="{{ '/overview' | relative_url }}">What Is FRC?</a>
-		<a class="nav-button" href="{{ '/landing' | relative_url }}">Subteams</a>
-		<a class="nav-button" href="{{ '/donate/' | relative_url }}">Donate</a>
+		{% for page in site.data.pages %}
+			{% unless page.only and page.only == "mobile" %}
+		    	<a class="nav-button" href="{{ page.path | relative_url }}">{{ page.title }}</a>
+			{% endunless %}
+		{% endfor %}
 	</nav>
 	<nav class="mobile-nav">
 		<a href="#menu">Menu</a>
@@ -22,21 +23,10 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ '' | relative_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
+        {% for page in site.data.pages %}
+			{% unless page.only and page.only == "desktop" %}
+		    	<li><a href="{{ page.path | relative_url }}">{{ page.title }}</a></li>
+			{% endunless %}
 		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
 </nav>
-
-
