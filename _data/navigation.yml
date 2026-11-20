@@ -1,0 +1,19 @@
+# Pages to show in site navigation
+# Add the relative path to the page and the title
+# Use 'only' to only include that page in the 'mobile' or 'desktop' nav
+
+- path: /
+  title: Home
+  only: mobile
+ 
+- path: /aboutus
+  title: About Our Team
+
+- path: /overview
+  title: What is FRC?
+
+- path: /landing
+  title: Subteams
+
+- path: /donate
+  title: Donate
