@@ -1,0 +1,54 @@
+@use '../libs' as *;
+
+/* Nontechnical Subteams */
+
+	.nontech {
+		align-items: flex-start;
+		display: flex;
+		gap: 2em;
+
+		.nontech-images {
+			display: flex;
+			flex: 0 0 30%;
+			flex-direction: column;
+			gap: 1.5em;
+
+			img {
+				aspect-ratio: 4 / 3;
+				display: block;
+				object-fit: cover;
+				width: 100%;
+			}
+		}
+
+		.nontech-text {
+			flex: 1;
+
+			p {
+				margin: 0 0 1.5em 0;
+			}
+		}
+
+		// Stacked layout: interleave each image with its text block.
+		@include breakpoint(small) {
+			align-items: stretch;
+			flex-direction: column;
+			gap: 1.5em;
+
+			.nontech-images,
+			.nontech-text {
+				display: contents;
+			}
+
+			.nontech-text p {
+				margin: 0;
+			}
+
+			.nontech-images img:nth-child(1) { order: 1; }
+			.nontech-text p:nth-child(1) { order: 2; }
+			.nontech-images img:nth-child(2) { order: 3; }
+			.nontech-text p:nth-child(2) { order: 4; }
+			.nontech-images img:nth-child(3) { order: 5; }
+			.nontech-text p:nth-child(3) { order: 6; }
+		}
+	}
