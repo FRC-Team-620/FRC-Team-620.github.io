@@ -86,3 +86,5 @@ permalink: /landing
 				<p><b>Business:</b><br>The business team handles the administrative and marketing related tasks throughout the year. From facilitating recruitment during Pre-Season, to planning outreach events with local schools, to managing the team's social media outlets, the business team is essential to a high-performing year. The business team is also in charge of creating the Judges Binder every year. This is a document that details the team's thought process and progress while building the robot over the course of the year, as well as additional details about how the team works in general. It helps the team win awards during competitions, which can provide valuable points to boost ranking.<br>(The image depicts our 2026 Sustainability Award, one we wouldn't have gotten without our business team)</p>
 			</div>
 		</div>
+	</div>
+</section>
