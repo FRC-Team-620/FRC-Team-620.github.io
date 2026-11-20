@@ -83,7 +83,7 @@ permalink: /landing
 			<div class="nontech-text">
 				<p><b>Strategy:</b><br>The strategy team has two main focuses: analyzing the game, and making decisions at competitions. At the beginning of the season, the strategy team is heavily involved in the initial robot design process, examining the newly revealed game in an attempt to figure out the best match/robot configuration strategy for any given year. Once the team gets to competition season, the strategy team's role evolves. At comps, the subteam manages scouts in the stands who watch matches for info on teams, collaborates with the drive team to develop match strategies, and uses scout data to create a pick order for alliance selection.</p>
 				<p><b>Drive:</b><br>The drive team is essential to 620's success at competitions. On every drive team there is a driver, operator, human player, and coach. While the driver and operator pilot the robot, the drive coach directs them and communicates with other teams. The human player, whose role varies from year to year, takes care of other interactions with the game and game pieces.<br>620 has recently begun training a second driveteam to help keep our team sustainable; when the members of the first drive team graduate, we have a well trained group to replace them. Each year, prospective drive teams must go through a selection process involving training workshops and practice at preseason competitions. This training program has greatly contributed to the Warbots' recent accomplishments.</p>
-				<p><b>Business:</b><br>The business team handles the administrative and marketing related tasks throughout the year. From facilitating recruitment during Pre-Season, to planning outreach events with local schools, to managing the team's social media outlets, the business team is essential to a high-performing year. The business team is also in charge of creating the Judges Binder every year. This is a document that details the team's thought process and progress while building the robot over the course of the year, as well as additional details about how the team works in general. It helps the team win awards during competitions, which can provide valuable points to boost ranking.<br>(The image depicts our 2026 Sustainability Award, one we wouldn't have gotten without our buisness team)</p>
+				<p><b>Business:</b><br>The business team handles the administrative and marketing related tasks throughout the year. From facilitating recruitment during Pre-Season, to planning outreach events with local schools, to managing the team's social media outlets, the business team is essential to a high-performing year. The business team is also in charge of creating the Judges Binder every year. This is a document that details the team's thought process and progress while building the robot over the course of the year, as well as additional details about how the team works in general. It helps the team win awards during competitions, which can provide valuable points to boost ranking.<br>(The image depicts our 2026 Sustainability Award, one we wouldn't have gotten without our business team)</p>
 			</div>
 		</div>
 		<style>
@@ -92,5 +92,15 @@ permalink: /landing
 			.nontech-images img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 			.nontech-text { flex: 1; }
 			.nontech-text p { margin: 0 0 1.5em 0; }
-			@media (max-width: 736px) { .nontech { flex-direction: column; } .nontech-images { flex-basis: auto; width: 100%; } }
+			@media (max-width: 736px) {
+				.nontech { flex-direction: column; align-items: stretch; gap: 1.5em; }
+				.nontech-images, .nontech-text { display: contents; }
+				.nontech-text p { margin: 0; }
+				.nontech-images img:nth-child(1) { order: 1; }
+				.nontech-text p:nth-child(1) { order: 2; }
+				.nontech-images img:nth-child(2) { order: 3; }
+				.nontech-text p:nth-child(2) { order: 4; }
+				.nontech-images img:nth-child(3) { order: 5; }
+				.nontech-text p:nth-child(3) { order: 6; }
+			}
 		</style>
