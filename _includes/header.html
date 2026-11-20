@@ -9,7 +9,7 @@
 		<span id="subtitle">{{ site.subtitle }}</span>
 	</a>
 	<nav class="desktop-nav">
-		{% for page in site.data.pages %}
+		{% for page in site.data.navigation %}
 			{% unless page.only and page.only == "mobile" %}
 		    	<a class="nav-button" href="{{ page.path | relative_url }}">{{ page.title }}</a>
 			{% endunless %}
@@ -23,7 +23,7 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.data.pages %}
+        {% for page in site.data.navigation %}
 			{% unless page.only and page.only == "desktop" %}
 		    	<li><a href="{{ page.path | relative_url }}">{{ page.title }}</a></li>
 			{% endunless %}
