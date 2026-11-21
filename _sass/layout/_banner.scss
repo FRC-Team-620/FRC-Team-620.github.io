@@ -108,6 +108,18 @@
 
 		&.style1 { &:after { background-color: get-palette(accent1); } }
 		&.style2 { &:after { background-color: get-palette(bg-alt); } }
+
+		/* Title-only banner (no description) */
+		&.compact {
+			height: auto;
+			min-height: 0;
+			padding-top: 8em;
+			padding-bottom: 1em;
+
+			> .inner header.major {
+				margin-bottom: 0;
+			}
+		}
 		&.style3 { &:after { background-color: get-palette(accent3); } }
 		&.style4 { &:after { background-color: get-palette(accent4); } }
 		&.style5 { &:after { background-color: get-palette(accent5); } }
