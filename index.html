@@ -1,48 +1,43 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: default
+title: Home
+landing-title: "Welcome to FRC 620, The WARBOTS!!!"
+description: "The James Madison High School First Robot Competition (FRC) 620 Robotics team"
+image: null
+author: null
+show_tile: false
+permalink: /
+---
+<main role="main">
+	<section id="banner" class="major">
+		<div class="inner">
+			<header class="major">
+				<h1>{{ page.landing-title }}</h1>
+			</header>
+			<div class="content">
+				<p style="text-transform: uppercase;">{{ site.description }}</p>
+			</div>
+		</div>
+	</section>
 
-{% include head.html %}
+	<div id="main">
+		
+		{% include tiles.html %}
 
-<body>
+		<section id="two">
+			<div class="inner">
+				<header class="major">
+					<h2>Contact us here!</h2>
+				</header>
 
-    {% include header.html %}
+			<p>Feel free to message us to ask questions or find out how you can get involved!</p>
+			</div>
+		</section>
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-            </div>
-        </div>
-    </section>
+	</div>
+</main>
 
-    <!-- Main -->
-    <div id="main">
-
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-             <div class="inner">
-                <header class="major">
-                    <h2>Contact us here!<h2>
-                </header>
-                <p>{{ content }}</p>
-            </div>
-        </section>
-
-    </div>
-
-    <!-- Contact -->
+<!-- Contact -->
 <section id="contact">
 	<div class="inner">
 		<section>
@@ -113,8 +108,3 @@
 		</section>
 	</div>
 </section>
-
-    {% include footer.html %}
-
-</body>
-</html>
